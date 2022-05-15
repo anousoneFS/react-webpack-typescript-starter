@@ -1,7 +1,9 @@
+import React, { ReactElement } from 'react'
 import './styles.css'
 import Img from './rule2.jpeg'
 import Counter from './Counter'
-export const App = () => {
+
+export const App = (): ReactElement => {
     return (
         <>
             <h1>

@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 
-const Counter = () => {
+const Counter = (): ReactElement => {
     const [count, setCount] = React.useState(0)
     return (
         <>
